@@ -15,20 +15,25 @@ body {
     color: #22d4fd;
 }
 
-.cabeçalho {
-
+.cabecalho {
+    padding: 2% 0% 0% 15%;
 }
 
-.cabeçalho__menu {
-
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
 }
 
-.cabeçalho__menu__link {
-    
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22d4fd;
+    text-decoration: none;
 }
 
 .apresentaçao {
-    padding: 8% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items:center;
     justify-content: space-between;
@@ -89,7 +94,7 @@ body {
 .rodape {
     padding: 24px;
     color: #000000;
-    background-color: #22d4fd;
+    background-color: #24d4fd;
     text-align: center;
     font-family: 'Montserrat', sans serif;
     font-size: 24px;
